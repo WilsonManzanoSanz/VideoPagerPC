@@ -1,0 +1,68 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="4dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+
+        <TextView
+            android:id="@+id/tvOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="@string/Order"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#333333"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:id="@+id/tvPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvOrder"
+            android:text="@string/pager"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="#434343"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:typeface="normal" />
+
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:background="#00ffffff"
+            android:src="@drawable/delete_40" />
+
+        <ImageButton
+            android:id="@+id/buttonNotify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tvOrder"
+            android:src="@drawable/ok_50"
+            android:background="#FFF"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

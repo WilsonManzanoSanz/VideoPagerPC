@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VideoPagerPC</string>
+    <string name="Order">Orden</string>
+    <string name="order">Orden</string>
+    <string name="pager">Pager</string>
+    <string name="añadir">Añadir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="IP">192.168.1.</string>
+    <string name="PORT">2000</string>
+    <string name="descargar">Descargar</string>
+    <string name="video_download_example">http://192.168.1.6/videoexample.mp4</string>
+</resources>
